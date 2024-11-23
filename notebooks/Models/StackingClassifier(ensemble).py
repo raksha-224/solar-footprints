@@ -14,7 +14,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.svm import SVC
 from sklearn.linear_model import LogisticRegression
 from sklearn.ensemble import StackingClassifier
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix,roc_auc_score,ConfusionMatrixDisplay,b,auc,roc_curve
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix,roc_auc_score,ConfusionMatrixDisplay,auc,roc_curve
 from sklearn.preprocessing import label_binarize
 import matplotlib.pyplot as plt
 from sklearn.metrics import matthews_corrcoef
